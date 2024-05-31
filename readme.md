@@ -137,6 +137,12 @@ git rebase -i --root
 --> git switch -c (new branch name)  --> it will create new branch with "C"  
 ex: git switch -c (UpdateText)
 
+When there is merge conflict
+![Merge Conflict](./images/MergeConflict.PNG)
+
+--> Remove head<< === >> and not required text and save
+
+
 
 ####  Merge the code to the main branch ####
 --> git merge -m (Message) (From which branch need to copy)  
@@ -146,7 +152,10 @@ ex: git merge -m "Merge fixtemp back to main" FixTemp
 --> git branch -d (Branch name which needs to delete)
 ex: git branch -d FixTemp
 
-
+### Add code to the main branch ####
+--> git remote add origin https://github.com/AnupamaKJ/GitLearning.git  
+--> git branch -M main  
+--> git push -u origin main  
 
 
 
