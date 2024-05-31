@@ -156,7 +156,10 @@ ex: git branch -d FixTemp
 --> git remote add origin https://github.com/AnupamaKJ/GitLearning.git  
 --> git branch -M main  
 --> git push -u origin main  
+--> git push origin main
 
+#### To push code from other all branches ####
+--> git push --all (It will update all other branches)
 
 
 
