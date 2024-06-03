@@ -242,3 +242,6 @@ git push (REMOTE) (BRANCH)
 
 Download the content from a remote repository  
 git pull REMOTE  
+
+to get the version of git
+git --version
